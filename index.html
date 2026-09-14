@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acesso Secreto | ARVOSI</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  min-height:100vh;
+  background:#050507;
+  color:#fff;
+  font-family:Arial,sans-serif;
+}
+
+body:before{
+  content:"";
+  position:fixed;
+  width:500px;
+  height:500px;
+  right:-180px;
+  top:-150px;
+  background:rgba(139,44,255,.20);
+  filter:blur(100px);
+  border-radius:50%;
+  pointer-events:none;
+}
+
+.wrap{
+  width:min(760px,90%);
+  margin:auto;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:30px 0;
+}
+
+.card{
+  width:100%;
+  padding:50px 30px;
+  text-align:center;
+  border:1px solid rgba(160,70,255,.30);
+  border-radius:28px;
+  background:linear-gradient(180deg,rgba(18,14,25,.97),rgba(8,7,11,.98));
+  box-shadow:0 30px 90px rgba(0,0,0,.55);
+}
+
+.secret{
+  display:inline-block;
+  padding:8px 15px;
+  border:1px solid rgba(195,92,255,.35);
+  border-radius:999px;
+  color:#c875ff;
+  font-size:11px;
+  font-weight:bold;
+  letter-spacing:2px;
+  margin-bottom:25px;
+}
+
+h1{
+  font-size:clamp(40px,9vw,68px);
+  line-height:1;
+  margin-bottom:20px;
+}
+
+h1 span{
+  color:#a83cff;
+}
+
+.lead{
+  font-size:17px;
+  color:#d2ced8;
+  line-height:1.7;
+  margin-bottom:35px;
+}
+
+.divider{
+  width:65px;
+  height:2px;
+  background:linear-gradient(90deg,#6f16e9,#c35cff);
+  margin:0 auto 35px;
+}
+
+.message{
+  font-size:19px;
+  line-height:1.65;
+  color:#eee8f2;
+}
+
+.message strong{
+  color:#c875ff;
+}
+
+.reveal{
+  margin-top:35px;
+  padding:25px;
+  border-radius:18px;
+  background:rgba(139,44,255,.07);
+  border:1px solid rgba(139,44,255,.20);
+}
+
+.reveal p{
+  color:#aaa5b4;
+  font-size:13px;
+  line-height:1.6;
+  margin-bottom:18px;
+}
+
+.btn,
+.book-button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:15px 25px;
+  border-radius:999px;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.btn{
+  background:linear-gradient(135deg,#6f16e9,#a743ff);
+  box-shadow:0 0 30px rgba(139,44,255,.25);
+}
+
+.audio-status{
+  margin-top:14px;
+  color:#77727f;
+  font-size:12px;
+}
+
+.warning{
+  margin-top:30px;
+  color:#77727f;
+  font-size:11px;
+}
+
+.book-button{
+  margin-top:22px;
+  background:linear-gradient(135deg,#8b2cff,#c35cff);
+}
+
+.footer{
+  margin-top:30px;
+  color:#625d68;
+  font-size:11px;
+}
+
+@media(max-width:520px){
+  .card{
+    padding:40px 22px;
+    border-radius:22px;
+  }
+
+  .lead{
+    font-size:15px;
+  }
+
+  .message{
+    font-size:18px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+<main class="card">
+
+<div class="secret">
+◈ ACESSO SECRETO ARVOSI ◈
+</div>
+
+<h1>
+Você<br>
+<span>encontrou.</span>
+</h1>
+
+<p class="lead">
+Se você chegou até aqui, não foi por acaso.
+</p>
+
+<div class="divider"></div>
+
+<div class="message">
+
+Existe uma parte de nós que nem sempre queremos encarar.
+<br><br>
+
+Ela aparece nos momentos de fraqueza,
+nas escolhas automáticas e naquele pensamento de
+<strong>“amanhã eu mudo”.</strong>
+
+<br><br>
+
+O problema é que, quando você não entende a raiz,
+continua lutando apenas contra o comportamento.
+
+</div>
+
+<div class="reveal">
+
+<p>
+Você chegou até o fim.<br>
+Agora escute uma mensagem curta.
+</p>
+
+<a
+class="btn"
+href="arven-sala-secreta.mp3"
+target="_blank"
+rel="noopener">
+🔊 OUVIR A MENSAGEM
+</a>
+
+<div class="audio-status">
+Toque para ouvir.
+</div>
+
+</div>
+
+<p class="warning">
+Uma mensagem exclusiva para quem encontrou este acesso.
+</p>
+
+<a href="venda.html" class="book-button">
+📖 CONHECER O LIVRO
+</a>
+
+<div class="footer">
+ARVOSI LEGACY • MARLON ALVES
+</div>
+
+</main>
+</div>
+
+</body>
+</html>
